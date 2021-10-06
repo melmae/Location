@@ -19,7 +19,7 @@
         android:id="@+id/latTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="57dp"
+        android:layout_marginLeft="150px"
         android:text="Latitude:"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/lonTextView"
@@ -31,7 +31,7 @@
         android:id="@+id/lonTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="31dp"
         android:text="Longitude:"
         android:textColor="@color/white"
         android:layout_marginLeft="150px"
@@ -48,8 +48,7 @@
         android:text="Accuracy:"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/altTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/altTextView"
@@ -69,7 +68,7 @@
         android:text="Address:"
         android:textColor="@color/white"
         android:layout_marginLeft="150px"
-        android:layout_marginBottom="300px"
+        android:layout_marginBottom="200px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
